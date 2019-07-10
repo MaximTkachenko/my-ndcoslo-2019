@@ -2,7 +2,7 @@
 
 https://www.youtube.com/playlist?list=PL03Lrmd9CiGe9QtFC8LRRqknzpKgcrWpe 
 
-## wednesday
+### wednesday
 - [ ] https://ndcoslo.com/talk/10-years-of-microservices-at-finn-no-and-we-still-havent-slain-that-dragon/
 - [x] https://ndcoslo.com/talk/a-primer-on-functional-programming/
 - [x] https://ndcoslo.com/talk/hidden-gems-in-.net-core-3/
@@ -11,7 +11,7 @@ https://www.youtube.com/playlist?list=PL03Lrmd9CiGe9QtFC8LRRqknzpKgcrWpe
 - [ ] https://ndcoslo.com/talk/understanding-git-behind-the-command-line/
 - [ ] https://ndcoslo.com/talk/writing-allocation-free-code-in-c/
 
-## thursday
+### thursday
 - [x] https://ndcoslo.com/talk/pragmatic-performance-when-to-care-about-perf-and-what-to-do-about-it/
 - [x] https://ndcoslo.com/talk/how-to-be-cool-in-the-age-of-legacy/
 - [ ] https://ndcoslo.com/talk/an-introduction-to-webassembly/
@@ -27,7 +27,7 @@ https://www.youtube.com/playlist?list=PL03Lrmd9CiGe9QtFC8LRRqknzpKgcrWpe
 - [x] https://ndcoslo.com/talk/advanced-net-debugging-techniques-from-real-world-investigations/
 - [x] https://ndcoslo.com/talk/powering-100-million-daily-users/
 
-## friday
+### friday
 - [x] https://ndcoslo.com/talk/modern-continuous-integration-with-azure-pipelines/
 - [ ] https://ndcoslo.com/talk/the-visible-developer-why-you-shouldnt-blend-in/
 - [x] https://ndcoslo.com/talk/architecture-the-stuff-thats-hard-to-change/
