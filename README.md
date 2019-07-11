@@ -40,11 +40,53 @@ https://www.youtube.com/playlist?list=PL03Lrmd9CiGe9QtFC8LRRqknzpKgcrWpe
 
 # plan
 
-- performance (benchmarkdotnet, zero allocation)
-- architecture (ddd, microservices, monolith)
-- debugging (clrmd, windbg, perfview)
-- distributed systems (redis, observability, transactions, eventual constency, polly)
-- .net core 3, c# 8 features, async await
-- webassembly and blazor
-- actors (orleans, akka.net)
+## performance
+
+#### benchmarkdotnet
+
+#### zero allocation
+
+## .net staff
+
+#### .net core 3
+
+#### c# 8 features
+
+#### async await best practices
+
+## actors (orleans, akka.net)
+
+#### actor model
+
+#### examples
+
+## architecture
+
+#### ddd
+
+#### microservice
+
+#### kill monolith
+
+## distributed systems
+
+#### distributed transactions
+
+#### eventual consistency
+
+#### polly
+
+## debugging (clrmd, windbg, perfview)
+
+#### windbg
+
+#### pefview
+
+#### clrmd
+
+## webassembly
+
+#### webassembly basics
+
+#### blazor
 
