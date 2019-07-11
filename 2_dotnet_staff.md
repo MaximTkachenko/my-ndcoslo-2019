@@ -1,13 +1,16 @@
 # .net staff
 
-## .net core 3
+## .NET Core 3
 
-https://ndcoslo.com/talk/hidden-gems-in-.net-core-3/
+**AWESOOOOME talk** [Hidden gems in .NET Core 3 - David Fowler & Damian Edwards](https://www.youtube.com/watch?v=xdSSH63IZZc&list=PL03Lrmd9CiGe9QtFC8LRRqknzpKgcrWpe&index=14&t=1225s)
 
-## c# 8 features
+- GC limits, good defaults
+- 
 
-https://www.youtube.com/watch?v=aw1UQJcwDcc&list=PL03Lrmd9CiGe9QtFC8LRRqknzpKgcrWpe&index=18&t=0s
+## C# 8 features
 
-## async await best practices
+**Talk** [C# 8 and Beyond - Filip Ekberg](https://www.youtube.com/watch?v=aw1UQJcwDcc&list=PL03Lrmd9CiGe9QtFC8LRRqknzpKgcrWpe&index=18&t=0s)
 
-https://www.youtube.com/watch?v=J0mcYVxJEl0&list=PL03Lrmd9CiGe9QtFC8LRRqknzpKgcrWpe&index=172
+## async await mistakes
+
+**Talk** [Correcting Common Async/Await Mistakes in .NET - Brandon Minnick](https://www.youtube.com/watch?v=J0mcYVxJEl0&list=PL03Lrmd9CiGe9QtFC8LRRqknzpKgcrWpe&index=172)
