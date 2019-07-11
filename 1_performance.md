@@ -16,11 +16,11 @@ https://sharplab.io
 
 >You should measure.
 
-- System.ValueTuple vs System.Tuple
+- [System.ValueTuple](https://docs.microsoft.com/en-us/dotnet/api/system.valuetuple?view=netframework-4.8) vs [System.Tuple](https://docs.microsoft.com/en-us/dotnet/api/system.tuple?view=netframework-4.8)
 - ref structs, readonly structs, ref readonly structs, in method parameter
-- Span<T> slicing vs string.Substring
+- [Span<T>](https://docs.microsoft.com/en-us/dotnet/api/system.span-1?view=netstandard-2.1) slicing vs String.Substring
 - object pooling, [ArrayPool<T>](https://docs.microsoft.com/en-us/dotnet/api/system.buffers.arraypool-1?view=netstandard-2.1)
-- StringBuilder
+- [StringBuilder](https://docs.microsoft.com/en-us/dotnet/api/system.text.stringbuilder?view=netframework-4.8)
 - params: `Array.Empty<T>`, `Enumerable.Empty<T>`, generic overloads
 - boxing: `Console.WriteLine($"data {r}");` - boxing, `Console.WriteLine($"data {r.ToString()}");` - no boxing
 - ValueTask, Task.CompletedTask
