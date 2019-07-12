@@ -1,4 +1,4 @@
-# actors (orleans, akka.net)
+# actors
 
 ## actor model
 
@@ -12,7 +12,7 @@
 
 ## examples
 
-Great talk about staeful services concept ["Building Scalable Stateful Services" by Caitie McCaffrey](https://www.youtube.com/watch?v=H0i_bXKwujQ&list=LLP37b3StYV_gLsEEb0xaUlg&index=11&t=0s)
+Great talk about stateful services concept ["Building Scalable Stateful Services" by Caitie McCaffrey](https://www.youtube.com/watch?v=H0i_bXKwujQ&list=LLP37b3StYV_gLsEEb0xaUlg&index=11&t=0s)
 
 **Talk** [Building personalization with Orleans and Actor Modelling - Harald Schult Ulriksen](https://www.youtube.com/watch?v=3NT7uMV8GhQ&list=PL03Lrmd9CiGe9QtFC8LRRqknzpKgcrWpe&index=96)
 

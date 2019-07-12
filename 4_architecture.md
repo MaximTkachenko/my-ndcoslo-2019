@@ -2,8 +2,10 @@
 
 ## ddd
 
-https://www.youtube.com/watch?v=3AAzySH3A88&list=PL03Lrmd9CiGe9QtFC8LRRqknzpKgcrWpe&index=20&t=0s
+**Talk** [Getting to DDD: Pragmatic or Principled? - Julie Lerman](https://www.youtube.com/watch?v=3AAzySH3A88&list=PL03Lrmd9CiGe9QtFC8LRRqknzpKgcrWpe&index=20&t=0s)
 
 ## kill monolith
 
-https://www.youtube.com/watch?v=64w1zbpHGTg&list=PL03Lrmd9CiGe9QtFC8LRRqknzpKgcrWpe&index=140&t=0s
+**Talk** [Monolith Decomposition Patterns - Sam Newman](https://www.youtube.com/watch?v=64w1zbpHGTg&list=PL03Lrmd9CiGe9QtFC8LRRqknzpKgcrWpe&index=140&t=0s)
+
+**Talk** [10 years of microservices at FINN.no - and we still haven’t slain that dragon! - Henning Spjelkavi](https://www.youtube.com/watch?v=8f7bg5YAdds&list=PL03Lrmd9CiGe9QtFC8LRRqknzpKgcrWpe&index=43&t=2589s)
