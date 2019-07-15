@@ -75,7 +75,7 @@ public class Human : IHuman { }
 ((IHuman)new Human { … }).Hi();
 ```
 
-## async await mistakes
+## async await
 
 **Talk** [Correcting Common Async/Await Mistakes in .NET - Brandon Minnick](https://www.youtube.com/watch?v=J0mcYVxJEl0&list=PL03Lrmd9CiGe9QtFC8LRRqknzpKgcrWpe&index=172)
 
