@@ -25,17 +25,32 @@ BCL:
 
 [Language feature status](https://github.com/dotnet/roslyn/blob/master/docs/Language%20Feature%20Status.md)
 
-C# 7
-- tuple deconstruction
-- pattern matching (switch "improvement")
-
 C# 8
 - more pattern matching + object deconstruction
-- ranges
+```
+var whatFruit = fruit switch {
+    Apple _ => "This is an apple",
+    _ => "This is not an apple"
+};
+```
+- new structs Indexe and Range
+```
+var items = new[] { 1, 2, 3, 4, 5 };
+items[^2] = 33; // 1, 2, 33, 4, 5
+var subitems = items[0..2]; // 1, 2
+```
 - nullable refernces
-- using declarations
-- static local functions
+```
+string? s = GetString();
+var first = s[0]; //warning
+```
 - async enumerables
+```
+await foreach(var dataPoint in SomeAsyncSource())
+{
+	Console.WriteLine(dataPoint);
+}
+```
 - target type new expression
 ```
 Triangle triangle = new();
@@ -49,6 +64,16 @@ Triangle triangle = new();
 public class CustomAttribute<T> : Attribute { }
 ```
 - default interface methods
+```
+public interface IHuman
+{    
+    public void Hi() => Console.WriteLine("Hi, you don't have to implement me";
+}
+
+public class Human : IHuman { }
+
+((IHuman)new Human { … }).Hi();
+```
 
 ## async await mistakes
 

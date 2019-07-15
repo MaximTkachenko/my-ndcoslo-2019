@@ -4,6 +4,10 @@
 
 **Talk** [Getting to DDD: Pragmatic or Principled? - Julie Lerman](https://www.youtube.com/watch?v=3AAzySH3A88&list=PL03Lrmd9CiGe9QtFC8LRRqknzpKgcrWpe&index=20&t=0s)
 
+[Clean architecture article](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+
+**Talk** [Clean Architecture with ASP.NET Core 2.2 - Jason Taylor](https://www.youtube.com/watch?v=Zygw4UAxCdg)
+
 ## kill monolith
 
 **Talk** [Monolith Decomposition Patterns - Sam Newman](https://www.youtube.com/watch?v=64w1zbpHGTg&list=PL03Lrmd9CiGe9QtFC8LRRqknzpKgcrWpe&index=140&t=0s)
