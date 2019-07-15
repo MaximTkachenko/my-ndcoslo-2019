@@ -13,3 +13,10 @@ https://github.com/microsoft/perfview
 ## clrmd
 
 https://github.com/microsoft/clrmd
+```
+using(var dt = DataTarget.LoadCrashDump(@"C:\temp\dump.dmp"))
+{
+    var rt = dt.ClrVersions.First().CreateRuntime();
+    Console.WriteLine(rt.ThreadPool.TotalThreads);
+}
+```

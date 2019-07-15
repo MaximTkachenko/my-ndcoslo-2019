@@ -22,4 +22,4 @@ Examples:
 - [orelans](https://github.com/dotnet/orleans)
 - [akka.net](https://github.com/akkadotnet/akka.net)
 - [protoactor](https://github.com/AsynkronIT/protoactor-dotnet)
-- [service fabric reliable actors](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-reliable-actors-introduction)
+- [service fabric reliable actors](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-reliable-actors-introduction) and [service fabric reliable services](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-reliable-services-introduction)
