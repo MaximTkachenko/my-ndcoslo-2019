@@ -67,7 +67,7 @@ public class CustomAttribute<T> : Attribute { }
 ```
 public interface IHuman
 {    
-    public void Hi() => Console.WriteLine("Hi, you don't have to implement me";
+    public void Hi() => Console.WriteLine("Hi, you don't have to implement me");
 }
 
 public class Human : IHuman { }
