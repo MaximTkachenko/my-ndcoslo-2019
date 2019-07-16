@@ -10,7 +10,7 @@ CLR:
 - GC limits, new good defaults
 - AssemblyLoadContext: logical successor to AppDomains (load/unload assemblies)
 - Startup hooks: register code to execute before Main
-- dotnet diagnostics tools: counters, trace, dump
+- [dotnet diagnostics tools: counters, trace, dump](https://devblogs.microsoft.com/dotnet/introducing-diagnostics-improvements-in-net-core-3-0/)
 - publish options: PublishSingleFile, PublishTrimmed
 
 BCL:
@@ -27,44 +27,44 @@ BCL:
 
 C# 8
 - more pattern matching + object deconstruction
-```
+```csharp
 var whatFruit = fruit switch {
     Apple _ => "This is an apple",
     _ => "This is not an apple"
 };
 ```
 - new structs Indexe and Range
-```
+```csharp
 var items = new[] { 1, 2, 3, 4, 5 };
 items[^2] = 33; // 1, 2, 33, 4, 5
 var subitems = items[0..2]; // 1, 2
 ```
 - nullable refernces
-```
+```csharp
 string? s = GetString();
 var first = s[0]; //warning
 ```
 - async enumerables
-```
+```csharp
 await foreach(var dataPoint in SomeAsyncSource())
 {
 	Console.WriteLine(dataPoint);
 }
 ```
 - target type new expression
-```
+```csharp
 Triangle triangle = new();
 ```
 - defaut in deconstruction
-```
+```csharp
 (int a, string b) = default;
 ```
 - generic attributes
-```
+```csharp
 public class CustomAttribute<T> : Attribute { }
 ```
 - default interface methods
-```
+```csharp
 public interface IHuman
 {    
     public void Hi() => Console.WriteLine("Hi, you don't have to implement me";

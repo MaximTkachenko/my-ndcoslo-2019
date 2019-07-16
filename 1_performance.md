@@ -9,7 +9,7 @@
 <details><summary>Example: StringBuilder vs Concat</summary>
 <p>
 
-```
+```csharp
 class Program
 {
     static void Main()
