@@ -12,7 +12,7 @@
 
 - single process monolith
 - modular monolith
-- distributed monolith (can't deploy independently) - put all back into monolith and split propely with [bounded contexts](https://martinfowler.com/bliki/BoundedContext.html) (DDD)
+- distributed monolith - put all back into monolith and split propely with [bounded contexts](https://martinfowler.com/bliki/BoundedContext.html) (DDD)
 - [strangler pattern](https://docs.microsoft.com/en-us/azure/architecture/patterns/strangler)
 - [branch by abstraction](https://martinfowler.com/bliki/BranchByAbstraction.html)
 - database per microservice, avoid sharing databases

@@ -81,8 +81,8 @@ https://sharplab.io
 - [System.ValueTuple](https://docs.microsoft.com/en-us/dotnet/api/system.valuetuple?view=netframework-4.8) vs [System.Tuple](https://docs.microsoft.com/en-us/dotnet/api/system.tuple?view=netframework-4.8)
 - ref structs, readonly structs, ref readonly structs, in method parameter
 - [Span<T>](https://docs.microsoft.com/en-us/dotnet/api/system.span-1?view=netstandard-2.1) slicing vs String.Substring
-- object pooling, [ArrayPool<T>](https://docs.microsoft.com/en-us/dotnet/api/system.buffers.arraypool-1?view=netstandard-2.1)
+- object pooling, [ArrayPool<T>](https://adamsitnik.com/Array-Pool/)
 - [StringBuilder](https://docs.microsoft.com/en-us/dotnet/api/system.text.stringbuilder?view=netframework-4.8)
-- params: [Array.Empty<T>](https://docs.microsoft.com/en-us/dotnet/api/system.array.empty?view=netframework-4.8), [Enumerable.Empty<T>](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.empty?view=netframework-4.8), generic overloads
-- boxing: `Console.WriteLine($"data {integer_var}");` - boxing, `Console.WriteLine($"data {integer_var.ToString()}");` - no boxing
+- params: [Array.Empty<T>](https://docs.microsoft.com/en-us/dotnet/api/system.array.empty?view=netframework-4.8), [Enumerable.Empty<T>](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.empty?view=netframework-4.8), overloads
+- `Console.WriteLine($"data {integer_var}");` - boxing, `Console.WriteLine($"data {integer_var.ToString()}");` - no boxing
 - [ValueTask](https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.valuetask-1?view=netstandard-2.1), [Task.CompletedTask](https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task.completedtask?view=netframework-4.8)

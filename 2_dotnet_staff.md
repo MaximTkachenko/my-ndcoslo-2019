@@ -26,7 +26,7 @@ BCL:
 [Language feature status](https://github.com/dotnet/roslyn/blob/master/docs/Language%20Feature%20Status.md)
 
 C# 8
-- more pattern matching + object deconstruction
+- more pattern matching
 ```csharp
 var whatFruit = fruit switch {
     Apple _ => "This is an apple",
