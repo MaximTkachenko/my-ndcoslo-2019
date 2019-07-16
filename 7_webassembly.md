@@ -12,27 +12,3 @@
 
 [Blazor](https://docs.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-3.0)
 
-
-```
-<div>
-    <h1>@Title</h1>
-
-    @ChildContent
-
-    <button @onclick="@OnYes">Yes!</button>
-</div>
-
-@code {
-    [Parameter]
-    private string Title { get; set; }
-
-    [Parameter]
-    private RenderFragment ChildContent { get; set; }
-
-    private void OnYes()
-    {
-        Console.WriteLine("Write to the console in C#! 'Yes' button was selected.");
-    }
-}
-```
-

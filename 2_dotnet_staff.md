@@ -9,7 +9,7 @@
 CLR:
 - GC limits, new good defaults
 - AssemblyLoadContext: logical successor to AppDomains (load/unload assemblies)
-- Startup hooks: regietr code to execute before Main
+- Startup hooks: register code to execute before Main
 - dotnet diagnostics tools: counters, trace, dump
 - publish options: PublishSingleFile, PublishTrimmed
 

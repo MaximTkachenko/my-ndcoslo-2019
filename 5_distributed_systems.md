@@ -12,10 +12,6 @@ Also https://developers.redhat.com/blog/2018/10/01/patterns-for-distributed-tran
 ### Saga pattern
 ![saga](https://i.imgur.com/9Z9X7PF.png)
 
-## eventual consistency
-
-[Living in eventually consistent reality - Bartosz Sypytkowski](https://www.youtube.com/watch?v=mMzVCU38Sxo&list=PL03Lrmd9CiGe9QtFC8LRRqknzpKgcrWpe&index=129&t=1121s)
-
 ## polly
 
 **Talk** [Bulletproof Transient Error Handling with Polly - ​Carl Franklin](https://www.youtube.com/watch?v=2kfCXMoVCqM&list=PL03Lrmd9CiGe9QtFC8LRRqknzpKgcrWpe&index=72&t=0s)
