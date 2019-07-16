@@ -79,7 +79,6 @@ https://sharplab.io
 >You should measure.
 
 - [System.ValueTuple](https://docs.microsoft.com/en-us/dotnet/api/system.valuetuple?view=netframework-4.8) vs [System.Tuple](https://docs.microsoft.com/en-us/dotnet/api/system.tuple?view=netframework-4.8)
-- ref structs
 - [Span<T>](https://docs.microsoft.com/en-us/dotnet/api/system.span-1?view=netstandard-2.1) slicing vs String.Substring
 - object pooling, [ArrayPool<T>](https://adamsitnik.com/Array-Pool/)
 - [StringBuilder](https://docs.microsoft.com/en-us/dotnet/api/system.text.stringbuilder?view=netframework-4.8)
