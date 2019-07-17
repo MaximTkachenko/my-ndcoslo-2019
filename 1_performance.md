@@ -21,14 +21,16 @@ class Program
 [MemoryDiagnoser]
 public class Test
 {
-    private const int Count = 100;
-    private static readonly string[] Data;
-    static Test()
+    private string[] _data;
+
+    [GlobalSetup]
+    public void GlobalSetup()
     {
-        Data = new String[Count];
-        for (int i = 0; i < Count; i++)
+        int count = 100;
+        _data = new string[count];
+        for (int i = 0; i < count; i++)
         {
-            Data[i] = Guid.NewGuid().ToString();
+            _data[i] = Guid.NewGuid().ToString();
         }
     }
 
@@ -37,9 +39,9 @@ public class Test
     public string Naive()
     {
         string result = string.Empty;
-        for (int i = 0; i < Data.Length; i++)
+        for (int i = 0; i < _data.Length; i++)
         {
-            result += Data[i];
+            result += _data[i];
         }
 
         return result;
@@ -49,9 +51,9 @@ public class Test
     public string WithStringBuilder()
     {
         var result = new StringBuilder();
-        for (int i = 0; i < Data.Length; i++)
+        for (int i = 0; i < _data.Length; i++)
         {
-            result.Append(Data[i]);
+            result.Append(_data[i]);
         }
 
         return result.ToString();
