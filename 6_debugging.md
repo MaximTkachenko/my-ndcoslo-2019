@@ -1,4 +1,4 @@
-# debugging (clrmd, windbg, perfview)
+# debugging
 
 [Advanced .NET debugging techniques from real world investigations - Christophe Nasarre and Kevin Gos](https://www.youtube.com/watch?v=biDJkJ4L_K8&list=PL03Lrmd9CiGe9QtFC8LRRqknzpKgcrWpe&index=171&t=0s)
 
